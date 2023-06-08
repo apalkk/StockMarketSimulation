@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{BB1E0B07-DBCC-438E-9C12-2E29B7CF70A9}|Default">
+  <MonoDevelop.Ide.ItemProperties.StockMarketSimulation PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="StockMarketSimulation/Program.cs">
+    <Files>
+      <File FileName="StockMarketSimulation/Program.cs" Line="139" Column="47" />
+      <File FileName="StockMarketSimulation/Stock.cs" Line="24" Column="26" />
+      <File FileName="StockMarketSimulation/StockMarket.cs" Line="6" Column="6" />
+      <File FileName="StockMarketSimulation/Transaction.cs" Line="23" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="StockMarketSimulation" expanded="True">
+            <Node name="StockMarketSimulation" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

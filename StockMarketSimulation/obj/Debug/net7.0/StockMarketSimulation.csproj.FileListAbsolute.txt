@@ -1,0 +1,15 @@
+/Users/aadipalnitkar/Projects/StockMarketSimulation/StockMarketSimulation/bin/Debug/net7.0/StockMarketSimulation
+/Users/aadipalnitkar/Projects/StockMarketSimulation/StockMarketSimulation/bin/Debug/net7.0/StockMarketSimulation.deps.json
+/Users/aadipalnitkar/Projects/StockMarketSimulation/StockMarketSimulation/bin/Debug/net7.0/StockMarketSimulation.runtimeconfig.json
+/Users/aadipalnitkar/Projects/StockMarketSimulation/StockMarketSimulation/bin/Debug/net7.0/StockMarketSimulation.dll
+/Users/aadipalnitkar/Projects/StockMarketSimulation/StockMarketSimulation/bin/Debug/net7.0/StockMarketSimulation.pdb
+/Users/aadipalnitkar/Projects/StockMarketSimulation/StockMarketSimulation/obj/Debug/net7.0/StockMarketSimulation.csproj.AssemblyReference.cache
+/Users/aadipalnitkar/Projects/StockMarketSimulation/StockMarketSimulation/obj/Debug/net7.0/StockMarketSimulation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aadipalnitkar/Projects/StockMarketSimulation/StockMarketSimulation/obj/Debug/net7.0/StockMarketSimulation.AssemblyInfoInputs.cache
+/Users/aadipalnitkar/Projects/StockMarketSimulation/StockMarketSimulation/obj/Debug/net7.0/StockMarketSimulation.AssemblyInfo.cs
+/Users/aadipalnitkar/Projects/StockMarketSimulation/StockMarketSimulation/obj/Debug/net7.0/StockMarketSimulation.csproj.CoreCompileInputs.cache
+/Users/aadipalnitkar/Projects/StockMarketSimulation/StockMarketSimulation/obj/Debug/net7.0/StockMarketSimulation.dll
+/Users/aadipalnitkar/Projects/StockMarketSimulation/StockMarketSimulation/obj/Debug/net7.0/refint/StockMarketSimulation.dll
+/Users/aadipalnitkar/Projects/StockMarketSimulation/StockMarketSimulation/obj/Debug/net7.0/StockMarketSimulation.pdb
+/Users/aadipalnitkar/Projects/StockMarketSimulation/StockMarketSimulation/obj/Debug/net7.0/StockMarketSimulation.genruntimeconfig.cache
+/Users/aadipalnitkar/Projects/StockMarketSimulation/StockMarketSimulation/obj/Debug/net7.0/ref/StockMarketSimulation.dll
