@@ -31,9 +31,8 @@ public class Program
 
         Task.Run(StockThreads); Task.Run(StockThreads); Task.Run(StockThreads);
 
-
         Console.WriteLine("Commands:");
-        Console.WriteLine("add $1 $2: Adds a stock of name $1 with stocks worth $2");
+        Console.WriteLine("add $1 $2: Adds a stock of id $1 with stocks worth $2");
         Console.WriteLine("sell $1 $2: Sells $2 stocks of id $1");
         Console.WriteLine("buy $1 $2: Buys $2 stocks of id $1");
         Console.WriteLine("high: Prints the most expensive stock");

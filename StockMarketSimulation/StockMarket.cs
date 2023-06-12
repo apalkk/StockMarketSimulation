@@ -32,7 +32,7 @@ namespace StockMarketSim
         {
             lock (Transaction_List)
             {
-                return Transaction_List;
+                return new List<Transaction>(Transaction_List);
             }
         }
 

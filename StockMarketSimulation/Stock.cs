@@ -40,7 +40,7 @@ namespace StockMarketSim
         {
             lock (this)
             {
-                Curr_Price += (quantity);
+                Curr_Price += Calculate_Impact(quantity);
                 this.Time_Updated = DateTime.Now;
             }
         }
@@ -50,14 +50,11 @@ namespace StockMarketSim
         {
             lock (this)
             {
-                if ((Curr_Price -= (quantity)) <= 0)
+                if ((Curr_Price - Calculate_Impact(quantity)) <= 0)
                 {
-                    Buy(quantity);
-                    return;
+                    Curr_Price -= Calculate_Impact(quantity);
+                    this.Time_Updated = DateTime.Now;
                 }
-
-                Curr_Price -= (quantity);
-                this.Time_Updated = DateTime.Now;
             }
         }
 
@@ -68,6 +65,7 @@ namespace StockMarketSim
             // Generates a value between 0 exclusive and 1 inclusive.
             double Impact_Value = (r.Next(10) + 1) / 10;
 
+            // Finding average of the 10 latest stock transactions
             var query = StockMarket.GetTransactions().Where(t => t.Executed == true)
                 .OrderByDescending(t => t.Stock_Used.Time_Updated)
                 .Take(10);
@@ -80,6 +78,9 @@ namespace StockMarketSim
                 Sum += t.Quantity;
                 Count++;
             }
+
+            if (Sum == 0) Sum++;
+            if (Count == 0) Count++;
 
             double Average = (Sum / Count);
 

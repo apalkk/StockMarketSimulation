@@ -7,10 +7,11 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="StockMarketSimulation/Program.cs">
     <Files>
-      <File FileName="StockMarketSimulation/Program.cs" Line="139" Column="47" />
-      <File FileName="StockMarketSimulation/Stock.cs" Line="24" Column="26" />
-      <File FileName="StockMarketSimulation/StockMarket.cs" Line="6" Column="6" />
-      <File FileName="StockMarketSimulation/Transaction.cs" Line="23" Column="10" />
+      <File FileName="StockMarketSimulation/Program.cs" Line="56" Column="50" />
+      <File FileName="StockMarketSimulation/Stock.cs" />
+      <File FileName="StockMarketSimulation/StockMarket.cs" />
+      <File FileName="StockMarketSimulation/Transaction.cs" />
+      <File FileName="StockMarketSimulation/TransactionType.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
